@@ -22,7 +22,7 @@ Follow these steps to add the driver in an application for PSOC&trade; Edge AI K
     #include "mtb_dvp_camera_ov7675.h"
     #include "vg_lite.h"
 
-    /* Image buffer - driver needs a double buffer buffer */
+    /* Image buffer - driver needs a double buffer */
     vg_lite_buffer_t image_buffer[2];
 
     cy_stc_scb_i2c_context_t i2c_master_context;
